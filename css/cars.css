@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+#header {
+    text-align: right;
+    padding: 20px;
+}
+
+nav#header ul li a:link,
+nav#header ul li a:visited {
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav#header ul li {
+    display: inline;
+}
+
+form label {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background: #eee;
+    color: #333;
+    border: solid 1px #aaa;
+    padding: 5px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 1.5px;
+    border: solid 1px #aaa;
+    border-radius: 1;
+}
+
+
+#cars ul li {
+    display: inline-block;
+    width: 29%;
+    padding: 2%;
+}
+
+#cars ul li span, #cars ul li p {
+    display: block;
+    text-align: center;
+}

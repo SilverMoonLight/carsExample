@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+#header {
+    text-align: right;
+    padding: 20px;
+}
+
+nav#header ul li a:link,
+nav#header ul li a:visited {
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav#header ul li {
+    display: inline;
+}
+
+input[type="text"] {
+    display: block;
+    margin: 0 0 2px 1px;
+    width: 33%;
+}
+
+.newElementContainer {
+    border: 1px solid dodgerblue;
+    margin-left: 15%;
+    margin-right: 6%;
+}
+
