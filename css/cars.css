@@ -13,6 +13,10 @@ body {
     padding: 20px;
 }
 
+nav#header {
+    background-color: dodgerblue;
+}
+
 nav#header ul li a:link,
 nav#header ul li a:visited {
     color: #555;
